@@ -8,5 +8,18 @@
 <body>
     <p>Hi</p>
     <script src="index.js"></script>
+    <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+  window.OneSignalDeferred = window.OneSignalDeferred || [];
+  OneSignalDeferred.push(function(OneSignal) {
+    OneSignal.init({
+      appId: "a8b3a766-7f54-48e7-a3b5-aa10cf531ced",
+      safari_web_id: "web.onesignal.auto.0893d0c7-c315-4498-a086-d9071f0f29e9",
+      notifyButton: {
+        enable: true,
+      },
+    });
+  });
+</script>
 </body>
 </html>
